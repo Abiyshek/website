@@ -31,8 +31,6 @@ function Contacts() {
     }, []);
 
     const phoneDigits = (contactsData.phone || '').replace(/[^\d]/g, '');
-        ? `tel:${contactsData.phone}`
-        : `https://wa.me/${phoneDigits}`;
 
     const useStyles = makeStyles(() => ({
         socialIcon: {
