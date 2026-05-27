@@ -31,7 +31,6 @@ function Contacts() {
     }, []);
 
     const phoneDigits = (contactsData.phone || '').replace(/[^\d]/g, '');
-    const phoneHref = isMobile
         ? `tel:${contactsData.phone}`
         : `https://wa.me/${phoneDigits}`;
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import Fade from 'react-reveal/Fade';
 
 import './SingleProject.css';
