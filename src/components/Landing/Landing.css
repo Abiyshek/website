@@ -161,7 +161,8 @@
 @media (max-width: 600px) {
   .landing--img {
     --img-size: 200px;
-    left: 25%;
+    left: 50%;
+    top: 15%;
   }
 
   .landing--container-left {
@@ -170,6 +171,10 @@
 
   .landing--container-right {
     flex: 70%;
+  }
+
+  .lcl--content {
+    display: none;
   }
 
   .lcr--content {
