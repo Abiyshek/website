@@ -18,7 +18,7 @@ import './Contacts.css';
 
 function Contacts() {
     const { theme } = useContext(ThemeContext);
-    const [isMobile, setIsMobile] = useState(false);
+    const [, setIsMobile] = useState(false);
 
     useEffect(() => {
         const mobileUA = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
