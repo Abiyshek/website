@@ -161,7 +161,7 @@
 @media (max-width: 600px) {
   .landing--img {
     --img-size: 200px;
-    left: 20%;
+    left: 50%;
   }
 
   .landing--container-left {
