@@ -1,0 +1,17 @@
+.gallery-page {
+    min-height: 100vh;
+}
+
+.gallery-page-header {
+    text-align: center;
+    padding: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .gallery-page-header {
+        font-size: 1.8rem;
+        padding: 1.5rem;
+    }
+}

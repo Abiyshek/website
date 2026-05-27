@@ -1,0 +1,17 @@
+.gallery-container {
+    min-height: auto;
+    padding: 2rem 0;
+}
+
+.gallery-container h2 {
+    font-family: var(--primaryFont);
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .gallery-container h2 {
+        font-size: 2rem;
+    }
+}

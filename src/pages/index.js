@@ -1,0 +1,7 @@
+export { default as Main } from './Main/Main'
+export { default as ProjectPage } from './Project/ProjectPage'
+export { default as GalleryPage } from './Gallery/GalleryPage'
+export { default as AchievementPage } from './Achievement/AchievementPage'
+export { default as VideoGalleryPage } from './VideoGallery/VideoGalleryPage'
+export { default as PlayerProfilesPage } from './PlayerProfiles/PlayerProfilesPage'
+export { default as TestimonialsEditor } from './Testimonials/TestimonialsEditor'
