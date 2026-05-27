@@ -5,6 +5,7 @@ import Aravindh from '../assets/player_images/Aravindh.jpeg';
 import Arunesh from '../assets/player_images/Arunesh.jpeg';
 import Dharsha from '../assets/player_images/Dharsha.jpeg';
 import Dhivyesh from '../assets/player_images/Dhivyesh.jpeg';
+import Dhuruva from '../assets/player_images/Dhuruva.png';
 import Diya from '../assets/player_images/Diya.jpeg';
 import Gautham from '../assets/player_images/Gautham.jpeg';
 import Hidhansh from '../assets/player_images/Hidhansh.jpeg';
@@ -27,7 +28,7 @@ export const playerProfilesData = [
     { id: 5, name: 'Arunesh', image: Arunesh },
     { id: 6, name: 'Dharsha', image: Dharsha },
     { id: 7, name: 'Dhivyesh', image: Dhivyesh },
-    { id: 8, name: 'Dhuruva', image: Mithun },
+    { id: 8, name: 'Dhuruva', image: Dhuruva },
     { id: 9, name: 'Diya', image: Diya },
     { id: 10, name: 'Gautham', image: Gautham },
     { id: 11, name: 'Hidhansh', image: Hidhansh },

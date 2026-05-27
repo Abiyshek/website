@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { playerProfilesData } from '../../data/playerProfilesData';
 import { HiArrowRight } from 'react-icons/hi';
+import './PlayerProfiles.css';
 
 const PlayerProfiles = () => {
     const { theme } = useContext(ThemeContext);
@@ -33,27 +34,13 @@ const PlayerProfiles = () => {
                 </h1>
             </div>
 
-            <div style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(3, 1fr)',
-                gap: '2rem',
-                maxWidth: '1200px',
-                margin: '0 auto'
-            }}>
+            <div className="player-profiles-container">
                 {displayProfiles.map((profile, index) => (
                     <div
                         key={profile.id}
+                        className="player-card"
                         style={{
-                            borderRadius: '12px',
-                            overflow: 'hidden',
-                            boxShadow: '0px 4px 15px rgba(0, 0, 0, 0.2)',
                             backgroundColor: theme?.primary || '#545fc4',
-                            transition: 'all 0.3s ease',
-                            textAlign: 'center',
-                            paddingBottom: '1.5rem',
-                            display: 'flex',
-                            flexDirection: 'column',
-                            cursor: 'pointer',
                             ...(index >= 4 && { gridColumn: index === 4 ? '2 / 3' : '3 / 4' })
                         }}
                         onMouseEnter={(e) => {
