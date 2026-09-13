@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 
 import { ThemeContext } from './contexts/ThemeContext';
-import { Main, GalleryPage, AchievementPage, VideoGalleryPage, PlayerProfilesPage, TestimonialsEditor } from './pages'
+import { Main, GalleryPage, AchievementPage, VideoGalleryPage, PlayerProfilesPage, TestimonialsEditor, FixturesPage } from './pages'
 import { BackToTop } from './components'
 import ScrollToTop from './utils/ScrollToTop'
 
@@ -30,6 +30,7 @@ function App() {
           <Route path="/video-gallery" exact component={VideoGalleryPage} />
           <Route path="/player-profiles" exact component={PlayerProfilesPage} />
           <Route path="/edit-testimonials" exact component={TestimonialsEditor} />
+          <Route path="/fixtures" exact component={FixturesPage} />
 
           <Redirect to="/" />
         </Switch>

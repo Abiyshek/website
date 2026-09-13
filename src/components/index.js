@@ -18,3 +18,4 @@ export { default as SingleService } from './Services/SingleService/SingleService
 export { default as Admin } from './Admin/Admin'
 
 export { default as BackToTop } from'./BackToTop/BackToTop'
+export { default as FixtureGenerator } from './Fixtures/FixtureGenerator'

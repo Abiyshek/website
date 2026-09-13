@@ -5,7 +5,7 @@ import { IoMenuSharp, IoHomeSharp } from 'react-icons/io5';
 import { HiDocumentText, HiOutlinePhotograph } from 'react-icons/hi';
 import { BsFillGearFill } from 'react-icons/bs';
 import { MdPhone } from 'react-icons/md';
-import { FaUser, FaFolderOpen, FaVideo, FaTrophy, FaUsers } from 'react-icons/fa';
+import { FaUser, FaFolderOpen, FaVideo, FaTrophy, FaUsers, FaSitemap } from 'react-icons/fa';
 import { GiDrill } from 'react-icons/gi';
 import { makeStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
@@ -340,6 +340,24 @@ function Navbar() {
                                     />
                                     <span className={classes.drawerLinks}>
                                         Players
+                                    </span>
+                                </div>
+                            </NavLink>
+                        </Fade>
+
+                        <Fade left>
+                            <NavLink
+                                to='/fixtures'
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
+                            >
+                                <div className={classes.drawerItem}>
+                                    <FaSitemap
+                                        className={classes.drawerIcon}
+                                    />
+                                    <span className={classes.drawerLinks}>
+                                        Fixtures
                                     </span>
                                 </div>
                             </NavLink>
